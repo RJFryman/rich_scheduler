@@ -78,8 +78,3 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: rich-scheduler_production
-  username: rich-scheduler
-  password: <%= ENV['RICH-SCHEDULER_DATABASE_PASSWORD'] %>
